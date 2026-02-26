@@ -51,7 +51,7 @@ export default function Hero() {
             View Projects
           </motion.a>
           <motion.a
-            href="#"
+            href="Kilincer_berk_cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
