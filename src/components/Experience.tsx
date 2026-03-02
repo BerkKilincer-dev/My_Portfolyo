@@ -23,6 +23,13 @@ const experiences = [
     period: 'Previous',
     description: 'Developed automated test scripts using Python/Selenium. Conducted performance testing with JMeter to ensure system scalability and reliability.',
     color: 'matrix-green'
+  },
+  {
+    company: 'NSK Rota Group',
+    role: 'Software Engineering Intern',
+    period: 'Aug 2024 - Oct 2024',
+    description: 'Worked on industrial automation software and internal data management systems. Developed Python-based tools for process optimization and reporting.',
+    color: 'cyber-cyan'
   }
 ];
 

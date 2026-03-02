@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Typewriter } from 'react-simple-typewriter';
 import { Github, Linkedin, Mail, FileText } from 'lucide-react';
 import { cn } from '../utils';
+import { generateCV } from '../services/cvGenerator';
 
 export default function Hero() {
   const socials = [
@@ -50,17 +51,15 @@ export default function Hero() {
           >
             View Projects
           </motion.a>
-          <motion.a
-            href="Kilincer_berk_cv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.button
+            onClick={generateCV}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 border border-cyber-cyan text-cyber-cyan font-bold rounded-full hover:bg-cyber-cyan/10 transition-all flex items-center gap-2 cursor-pointer"
           >
             <FileText size={20} />
             Download CV
-          </motion.a>
+          </motion.button>
         </div>
 
         <div className="flex justify-center gap-6">

@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ExternalLink, Github, Cpu, Brain, Activity, Globe } from 'lucide-react';
+import { ExternalLink, Github, Cpu, Brain, Activity, Globe, Car } from 'lucide-react';
 
 const projects = [
   {
@@ -14,6 +14,22 @@ const projects = [
       'Turkish-specific LLM (BERT-based) sentiment analysis',
       'Hybrid Deep Learning architecture (LSTM/GRU)',
       'Real-time web scraping and API synchronization'
+    ],
+    color: 'from-cyber-cyan/20 to-transparent'
+  },
+  {
+    title: 'Neuro-Evolution Traffic Sim',
+    subtitle: 'Rust & Bevy AI Research',
+    description: 'A high-performance traffic simulation where agents learn to drive using Genetic Algorithms and Neural Networks. Features dynamic obstacle avoidance and real-time evolution tracking.',
+    icon: Car,
+    size: 'medium',
+    tags: ['Rust', 'Bevy', 'Genetic Algorithm', 'Neural Networks', 'ECS'],
+    features: [
+      'Neural Network driven agents (Brain component)',
+      'Raycast sensor perception system',
+      'Genetic Algorithm (Crossover & Mutation)',
+      'Dynamic obstacles (Moving bot cars)',
+      'Real-time dashboard (bevy_egui)'
     ],
     color: 'from-cyber-cyan/20 to-transparent'
   },
